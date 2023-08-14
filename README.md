@@ -51,7 +51,7 @@ In this step the JSON files that are available in the folders are converted into
 path1 = "Path of the JSON files"
 agg_trans_list = os.listdir(path1)
 
-# Give any column names that you want
+ Give any column names that you want
 columns1 = {'State': [], 'Year': [], 'Quarter': [], 'Transaction_type': [], 'Transaction_count': [],'Transaction_amount': []}
 Looping through each and every folder and opening the json files appending only the required key and values and creating the dataframe.
 
